@@ -1,0 +1,5 @@
+set(COMPONENT_SRCDIRS ".")
+set(COMPONENT_ADD_INCLUDEDIRS "include")
+set(COMPONENT_REQUIRES espmqtt)
+set(COMPONENT_PRIV_REQUIRES esp-request app_update)
+register_component()
